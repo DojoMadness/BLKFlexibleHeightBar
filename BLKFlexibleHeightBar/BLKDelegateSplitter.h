@@ -40,7 +40,8 @@
 
 /**
  A convenience initializer that sets the first and second delegate.
- @param The existing layout attributes.
+ @param firstDelegate The first delegate.
+ @param secondDelegate The second delegate.
  @return A delegate splitter instance, or nil of initialization fails.
  */
 - (instancetype)initWithFirstDelegate:(id<NSObject>)firstDelegate secondDelegate:(id<NSObject>)secondDelegate;
